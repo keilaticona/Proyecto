@@ -1,0 +1,249 @@
+  <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Youtube vista 2</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="shortcut icon" type="image/x-icon" href="you.ico">
+	<meta name="viewport" content="width-device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body onload="iniciar()"> 
+
+	<header>
+		<img src="lineas.png" class="menu" onclick="listar()">
+		<div id="burger-menu">
+			
+		</div>
+
+		
+			
+		<section class="logo">
+			<img src="Youtube.png" class="ytb">
+		</section>
+		<input type="text" placeholder="Buscar" class="buscar">
+		<a href="#">
+			<button class="boton1"><img src="lupa.png" class="lupa"></button>
+		</a>
+		<img class="icono1" src="camara.png">
+		<img class="icono2" src="aps.png">
+		<img class="icono3" src="campana.png">
+		<img class="usuario" src="keila.jpg">
+	</header>
+	
+	<main class="contenedor">
+			<div class="video">
+				<video src="alicia.mp4" controls class="video1"></video>
+			</div>
+			<div class="titulo">
+				<p class="hashtag">#AliciaKeys   #IIAintGotYou   #Vevo</p>
+				<h2><b>Alicia Keys - If I Ain't Got You (Official Music Video)</b></h2>	
+				<p>20 de mayo del 2002</p>
+				<p class="plomo">193,124,554 vistas</p>
+				<img class="like" src="like.png" onclick="meGusta()"><p><span id="contador">0</span><p></p>
+				<img class="like" src="dislike.png" onclick="nomeGusta()"><p><span id="contador1">0</span><p></p>
+				<img class="like" src="compartir.png"><p class="p1">COMPARTIR</p>
+				<img class="like" src="guardar.png"><p class="p1">GUARDAR</p>
+				<img class="like" src="puntos.png">
+			</div>
+			<div class="info">
+				<img class="perfil" src="aliciaperfil.jpg">
+				<div class="music">
+					<p><b>Alicia Keys</b></p>
+					<p>3.62 M suscriptores</p>
+				</div>
+				<img class="suscri" src="suscribete.jpg">
+				<div class="infoA">
+					<p>Music video by Alicia Keys performing If I Ain't Got You </p>
+					<button onclick="mostrar()" id="ms">MOSTRAR MÁS</button>
+					<div id="mostrarms">
+						
+					</div>
+				</div>
+				
+			</div>
+			<div class="recomendados">
+				<p class="cont2">A continuacion</p>
+				<h4 class="reprok">REPRODUCCION AUTOMÁTICA</h4>
+				<div >
+					<div id="propaganda">
+						<button class="cerrar" onclick="cerrar()">X</button>
+						<a href="https://www.bn.com.pe/"><img id="m" src="bcp.jpg"></a>
+					</div>
+				</div>
+				<hr/>
+				<div>
+					<img src="alicia2.png" class="reimg">
+					<div class="inf1">
+						<p><b>Meghan Trainor - Like I'm Gonna Lose You (Official Musi..</b></p>
+						<p>Meghan Trainor</p>
+						<p>598 M vistas</p>
+					</div>
+				</div>
+				<div>
+					<img src="alicia3.png" class="reimg">
+					<div class="inf1">
+						<p><b>Maxwell - This Woman's Work</b></p>
+						<p>maxwell</p>
+						<p>56 M vistas</p>
+					</div>
+				</div>
+				<div>
+					<img src="alicia10.png" class="reimg">
+					<div class="inf1">
+						<p><b>Mix: Alicia Keys - No One (Official Music Video</b></p>
+						<p>.....</p>
+						<p>Youtube</p>
+					</div>
+				</div>
+				<div>
+					<img src="alicia5.png" class="reimg">
+					<div class="inf1">
+						<p><b>Rihanna - Take A Bow</b></p>
+						<p>Rihanna</p>
+						<p>465 M vistas</p>
+					</div>
+				</div>
+				<div>
+					<img src="alicia6.png" class="reimg">
+					<div class="inf1">
+						<p><b>Alicia Keys - A Woman's Worth (Video)</b></p>
+						<p>Alicia Keys</p>
+						<p>67 M vistas</p>
+					</div>
+				</div>
+				<div>
+					<img src="alicia7.png" class="reimg">
+					<div class="inf1">
+						<p><b>Alicia Keys - If I Ain't Got You (Official Music Video)</b></p>
+						<p>Alicia Keys</p>
+						<p>194 M vistas</p>
+					</div>
+				</div>
+				<div>
+					<img src="alicia8.png" class="reimg">
+					<div class="inf1">
+						<p><b>Alicia Keys - You Don't Know My Name (Official Music Video)</b></p>
+						<p>Alicia Keys</p>
+						<p>51 M vistas</p>
+					</div>
+				</div>
+				<div>
+					<img src="alicia9.png" class="reimg">
+					<div class="inf1">
+						<p><b>Alicia Keys - If I Ain't Got You (Live from itunes Festival...</b></p>
+						<p>Alicia Keys</p>
+						<p>6.2 M vistas</p>
+					</div>
+				</div>
+				<div>
+					<img src="alicia10.png" class="reimg">
+					<div class="inf1">
+						<p><b>Mix: Alicia Keys - No One (Official Music Video</b></p>
+						<p>.....</p>
+						<p>Youtube</p>
+					</div>
+				</div>
+			</div>
+			<div class="comentarios">
+				<div>
+					<p class="cont1">234.567 comentarios</p>
+					<p class="cont">ORDENAR POR</p>
+					<img src="ordenar.png" class="order">
+					
+				</div>
+				
+				<div>
+					<img class="usu1" src="usuario.png">
+				</div>	
+				<div class="comen1">
+						<div><b>Bre Brad</b></div>
+						<div>she is beautifult</div>
+						<img class="like5" src="like.png" onclick="meGusta1()"><p><span id="contador2">0</span><p></p>
+						<img class="like5" src="dislike.png" onclick="nomeGusta1()"><p><span id="contador3">0</span><p></p>
+						<button onclick="respuesta()">RESPONDER</button>
+						<div id="rsta">
+							
+						</div>
+						<p class="verR">Ver 15 respuestas</p>
+				</div>
+			</div>
+	</main>
+
+	<script type="text/javascript">
+		var ad1, dm, sw;
+			function iniciar(){
+				sw=false;
+				dm = document.getElementById("m");
+				ad1 = setInterval(cambiar,1000);//dispara la repeticion de cambiar cada 1500milisegundos
+				}
+			function cambiar(){
+				if (sw) {
+					dm.src= "banco.png";
+				}else{
+					dm.src= "BN.jpg";		}
+				sw=!sw;
+			}
+			function cerrar(){
+				clearInterval(ad1);
+				document.getElementById("propaganda").style.display="none";
+			}
+		
+			function listar(){
+				var menupri = ["Inicio","Tendencias","Suscripciones","Biblioteca","Historial","Ver mas tarde"];
+				var text = "<ul>";
+				for(var i=0;i<menupri.length;i++){
+					text = text + "<li>" + menupri[i]+"</li>";
+				}
+				text = text + "</ul>";
+				document.getElementById("burger-menu").innerHTML=text;
+			}
+			function meGusta(){
+				var s = document.getElementById('contador').innerHTML;
+				var n = Number(s);
+				var nn = n + 1;
+				document.getElementById('contador').innerHTML=nn;
+			}
+			function nomeGusta(){
+				var s = document.getElementById('contador1').innerHTML;
+				var n = Number(s);
+				var nn = n + 1;
+				document.getElementById('contador1').innerHTML=nn;
+			}
+			function meGusta1(){
+				var s = document.getElementById('contador2').innerHTML;
+				var n = Number(s);
+				var nn = n + 1;
+				document.getElementById('contador2').innerHTML=nn;
+			}
+			function nomeGusta1(){
+				var s = document.getElementById('contador3').innerHTML;
+				var n = Number(s);
+				var nn = n + 1;
+				document.getElementById('contador3').innerHTML=nn;
+			}
+
+			function respuesta(){
+				var menupri = ["XD Hermoso el video tienes razon",":3 divino like a tu comentaroi hermoso","Genial :)"];
+				var text = "<ul>";
+				for(var i=0;i<menupri.length;i++){
+					text = text + "<li>" + menupri[i]+"</li>";
+				}
+				text = text + "</ul>";
+				document.getElementById("rsta").innerHTML=text;
+			}
+
+			function mostrar(){
+				var menupri = ["(Live from iTunes Festival, London, 2012). (C) 2012 RCA Records, a division of Sony Music Entertainment"];
+				var text = "<div>";
+				for(var i=0;i<menupri.length;i++){
+					text = text + "<p>" + menupri[i]+"</p>";
+				}
+				text = text + "</div>";
+				document.getElementById("mostrarms").innerHTML=text;
+				document.getElementById("ms").innerHTML="MOSTAR MENOS"
+			}
+
+	</script>
+
+</body>
+</html>

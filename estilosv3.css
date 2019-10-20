@@ -1,0 +1,271 @@
+header{
+	width: 100%;
+	height: 60px;
+}
+#boton{
+	margin-top: 12px;
+	margin-left: 10px;
+	float: left;
+	width: 35px;
+	height: 35px;
+	
+}
+.menu{
+	margin-top: 4px;
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+.logo{
+	float: left;
+	position: relative;
+	top: 5px;
+	left: 65px;
+}
+.ytb{
+	width: 100px;
+	height: 40px;
+}
+.buscar{
+	float: left;
+	position: relative;
+	top: 5px;
+	left: 280px;
+}
+.lupa{
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin-left: 7px;
+	
+}
+.icono1{
+	float: left;
+	width: 25px;
+	height: 25px;
+	position: relative;
+	top: 15px;
+	left: 480px;
+}
+.icono2{
+	float: left;
+	width: 25px;
+	height: 25px;
+	position: relative;
+	top: 15px;
+	left: 510px;
+}
+.icono3{
+	float: left;
+	width: 25px;
+	height: 25px;
+	position: relative;
+	top: 15px;
+	left: 530px;
+}
+.usuario{
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	margin-left: 300px;
+}
+.buscar{
+	width: 500px;
+	height: 35px;
+}
+
+
+.contenedor{
+	width: auto;
+    height: auto;
+}
+
+@media(min-width: 700px ){
+	.contenedor{
+		display : grid;
+		grid-template-columns: 60% 20px auto;
+		grid-template-rows: 20% 20% 20% 20% 10% 10%;
+	}
+	.video{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 3;
+	}
+	.titulo{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}
+	.info{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 4;
+		grid-row-end: 5;
+	}
+	.recomendados{
+		grid-column-start: 3;
+		grid-column-end: -1;
+		grid-row-start: 3;
+		grid-row-end: -1;
+	}
+	.listasre{
+		grid-column-start: 3;
+		grid-column-end:-1;
+		grid-row-start: 1;
+		grid-row-end: 3;
+	}
+	.comentarios{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 5;
+		grid-row-end: -1;
+	}
+	
+}
+
+.hashtag{
+	color: blue;
+}
+.like{
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.p1{
+	float: left;
+}
+.perfil{
+	float: left;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.music{
+	float: left;
+	margin-left: 20px;
+}
+.plomo{
+	color: #686868;
+	float: left;
+}
+.suscri{
+	float: left;
+	width: 130px;
+	height: 50px;
+	margin-left: 400px;
+	margin-top: 10px;
+}
+.cont{
+	margin-left: 500px;
+	float: left;
+}
+.cont2{
+	float: left;
+}
+.cont1{
+	float: left;
+
+}
+.infoA{
+	clear: both;
+}
+.reimg{
+	float: left;
+	width: 200px;
+	height: 100px;
+}
+.order{
+clear: both;
+	width: 25px;
+	height: 25px;
+	margin-left: 500px;
+}
+.video1{
+	width: 795px;
+	height: 480px;
+}
+
+.like5{
+	
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-left: 20px;
+}
+
+.usu1{
+	width: 30px;
+	height: 30px;	
+	float: left;
+}
+div .usu1{
+	float: left;
+}
+
+.comen1{
+	float: left;
+}
+
+.reprok{
+	margin-left: 150px;
+}
+
+div img .like5{
+	float: left;
+}
+.boton1{
+	margin-top: 6px;
+	margin-left: 200px;
+	width: 60px;
+	height: 40px;
+}
+#m{
+	width: 300px;
+	height: 150px;
+}
+#burger-menu li{
+	min-width: 25%;
+	min-height: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 30px 20px;
+	background: #E9E4E3;
+}
+#contador{
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+#contador1{
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+.listarepro{
+	width: 100%;
+	height: 70px;
+}
+.listasre{
+	background: #B7B7B6;
+	border: solid #E8E8E7 1px;
+
+}
+
+.mostro{
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin-left: 90%;
+	margin-top: 1px;
+}
+.ali{
+	float: left;
+}
